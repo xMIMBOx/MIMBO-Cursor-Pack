@@ -1,0 +1,49 @@
+[Version]
+Signature="$Windows NT$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur, Scheme.Ani
+AddReg    = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur = 10,"Cursors\MIMBO'S PACK"
+Scheme.Ani = 10,"Cursors\MIMBO'S PACK\Animated"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",%REG_SZ%,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%precision%,%10%\%CUR_DIR%\%text%,%10%\%CUR_DIR%\%hand%,%10%\%CUR_DIR%\%unavail%,%10%\%CUR_DIR%\%vert%,%10%\%CUR_DIR%\%horz%,%10%\%CUR_DIR%\%dgn1%,%10%\%CUR_DIR%\%dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%"
+
+[Scheme.Cur]
+Pointer.cur,"MIMBO'S Pack\Pointer.cur"
+Help.cur,"MIMBO'S Pack\Help.cur"
+Precision.cur,"MIMBO'S Pack\Precision.cur"
+Beam.cur,"MIMBO'S Pack\Beam.cur"
+Unavailable.cur,"MIMBO'S Pack\Unavailable.cur"
+Vert.cur,"MIMBO'S Pack\Vert.cur"
+Horz.cur,"MIMBO'S Pack\Horz.cur"
+Dgn1.cur,"MIMBO'S Pack\Dgn1.cur"
+Dgn2.cur,"MIMBO'S Pack\Dgn2.cur"
+Move.cur,"MIMBO'S Pack\Move.cur"
+Link.cur,"MIMBO'S Pack\Link.cur"
+
+[Scheme.Ani]
+working.ani,"MIMBO'S Pack\Animated\working.ani"
+busy.ani,"MIMBO'S Pack\Animated\busy.ani"
+
+[Strings]
+SCHEME_NAME = "MIMBO'S Custom Pack"
+CUR_DIR     = "Cursors\MIMBO'S PACK"
+pointer     = "Pointer.cur"
+help        = "Help.cur"
+work        = "Animated\working.ani"
+busy        = "Animated\busy.ani"
+precision   = "Precision.cur"
+text        = "Beam.cur"
+hand        = "Pointer.cur"
+unavail     = "Unavailable.cur"
+vert        = "Vert.cur"
+horz        = "Horz.cur"
+dgn1        = "Dgn1.cur"
+dgn2        = "Dgn2.cur"
+move        = "Move.cur"
+alternate   = "Pointer.cur"
+link        = "Link.cur"

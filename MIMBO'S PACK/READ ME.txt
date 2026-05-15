@@ -1,0 +1,14 @@
+MIMBO
+
+Hello, This is my first time making a custom cursor pack :)
+
+To install it :
+
+-Simply "Right Click" The "install.inf"
+-in the menu that will pop-up just Click install thats it. 
+
+To actually see/apply the Curser go to :
+
+Controle panel >  Hardware and Sound > Mouse (under Devices and Printers) > Pointers > Scheme > MIMBO'S Custom Pack. 
+
+Hope you Like it ♥
