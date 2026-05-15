@@ -1,4 +1,4 @@
-# MIMBO-Cursor-Pack
+# MIMBO'S-Cursor-Pack
 <img width="240" height="180" alt="Preview" src="https://github.com/user-attachments/assets/0cb562ac-083e-4e2d-b031-06c5a1a671a5" />
 .
 
